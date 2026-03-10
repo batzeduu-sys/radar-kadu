@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: radar-kadu
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python radar.py
